@@ -23,6 +23,9 @@ publish_help_url: &help_url "https://help.autodesk.com/view/SGSUB/ENU/?guid=SG_S
 
 settings.tk-multi-publish2.standalone:
   collector: "{self}/collector.py"
+  collector_settings:
+      Publish Templates:
+          ICEM: icem_asset_publish
   publish_plugins:
   - name: Publish to ShotGrid
     hook: "{self}/publish_file.py"

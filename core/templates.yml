@@ -628,6 +628,15 @@ paths:
     nuke_asset_publish:
         definition: '@asset_root/publish/nuke/{name}.v{version}.nk'
 
+    # 
+    # ICEM
+    # 
+    asset_publish_area_icem:
+        definition: '@asset_root/publish/icem'
+    icem_asset_publish:
+        definition: '@asset_root/publish/icem/{name}.v{version}.edf'
+
+
     #
     # Alias
     #
