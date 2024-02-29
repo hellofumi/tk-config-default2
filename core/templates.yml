@@ -635,6 +635,9 @@ paths:
         definition: '@asset_root/publish/icem'
     icem_asset_publish:
         definition: '@asset_root/publish/icem/{name}.v{version}.edf'
+    icem_asset_wire_publish:
+        # definition: '@asset_root/publish/icem/translations/{name}.v{version}.wire'
+        definition: '@asset_root/publish/icem/{name}.v{version}.wire'
 
 
     #

@@ -12,6 +12,8 @@
 # core API that should be used at runtime.
 
 location:
-  type: app_store
-  name: tk-core
-  version: v0.20.32
+  # type: app_store
+  # name: tk-core
+  # version: v0.20.35
+  type: dev
+  windows_path: C:\Users\qa\sg_envs\dev\tk\tk-core

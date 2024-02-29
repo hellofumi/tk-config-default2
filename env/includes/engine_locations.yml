@@ -75,6 +75,8 @@ engines.tk-shotgun.location:
   name: tk-shotgun
   version: v0.10.2
 engines.tk-vred.location:
-  type: app_store
-  name: tk-vred
-  version: v3.0.3
+  # type: app_store
+  # name: tk-vred
+  # version: v3.0.3
+  type: dev
+  windows_path: C:\Users\qa\sg_envs\dev\tk\tk-vred

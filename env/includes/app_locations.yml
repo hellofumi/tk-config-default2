@@ -49,9 +49,11 @@ apps.tk-multi-loader2.location:
   name: tk-multi-loader2
   version: v1.23.3
 apps.tk-multi-publish2.location:
-  type: app_store
-  name: tk-multi-publish2
-  version: v2.6.9
+  # type: app_store
+  # name: tk-multi-publish2
+  # version: v2.6.9
+  type: dev
+  windows_path: C:\Users\qa\sg_envs\dev\tk\tk-multi-publish2
 apps.tk-multi-pythonconsole.location:
   type: app_store
   name: tk-multi-pythonconsole
@@ -72,6 +74,8 @@ apps.tk-multi-shotgunpanel.location:
   type: app_store
   name: tk-multi-shotgunpanel
   version: v1.8.8
+  # type: dev
+  # windows_path: C:\Users\qa\sg_envs\dev\tk\tk-multi-shotgunpanel
 apps.tk-multi-snapshot.location:
   type: app_store
   name: tk-multi-snapshot
